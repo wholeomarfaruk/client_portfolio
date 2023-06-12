@@ -9,65 +9,68 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- >>>>>>>>>>>>Tailwindcss FILE<<<<<<<<<<<<<-->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- >>>>>>>>>>>>>>>>Font Awesome file link<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
 </head>
 
 <body>
     <main>
+        <div class="" id="stickybar">
+            <nav class=" text-white" style="background-color: #3D405B;"> 
+                <div class="flex px-16 justify-between">
+                    <div class="logo">
+                        <a href="index.html" class="flex px-8 py-2">
+                            <img class="h-10 w-10" src="../images/logo.png" alt="">
+                            <span>My Portfolio</span>
+                        </a>
+                    </div>
+                    <div class="">
+                        <ul class="flex">
+                            <li class="px-4 py-2 hover:bg-yellow-500 hover:text-black"><a href="#">Home</a></li>
+                            <li class="px-4 py-2 hover:bg-yellow-500 hover:text-black"><a href="#">About</a></li>
+                            <li class="px-4 py-2 hover:bg-yellow-500 hover:text-black"><a href="#">Portfolio</a></li>
+                            <li class="px-4 py-2 hover:bg-yellow-500 hover:text-black"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
 
-        <nav class="top-0 left-0 right-0 py-3 relative text-white" style="background-color: #3D405B;"> 
-            <div class="flex px-16 justify-between">
-                <div class="logo">
-                    <a href="index.html" class="flex px-8 py-2">
-                        <img class="h-10 w-10" src="../images/logo.png" alt="">
-                        <span>My Portfolio</span>
-                    </a>
+
+
                 </div>
-                <div class="">
-                    <ul class="flex">
-                        <li class="px-4 py-2 hover:bg-yellow-500 hover:text-black"><a href="#">Home</a></li>
-                        <li class="px-4 py-2 hover:bg-yellow-500 hover:text-black"><a href="#">About</a></li>
-                        <li class="px-4 py-2 hover:bg-yellow-500 hover:text-black"><a href="#">Portfolio</a></li>
-                        <li class="px-4 py-2 hover:bg-yellow-500 hover:text-black"><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-
-
-
-            </div>
-        </nav>
+            </nav>
+        </div>
 
         <section class="hero-section" id="section_1">
 
-            <div class="section-overlay"></div>
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
 
-            <div class="container">
-                <div class="flex justify-between">
+            <div class="w-full">
+                <div class="flex justify-around h-auto overflow-hidden min-h-full w-full px-16">
 
-                    <div class="">
-                        <h2 class="text-white">Welcome to the club</h2>
+                    <div class="h-auto my-auto ">
+                        <h2 class="text-black-900 text-4xl">Welcome to <span class="uppercase">My World</span></h2>
 
-                        <h1 class="text-white">
-                            <span>Tiya is</span>
-                            <span class="">
-                                <b class="">Modern</b>
-                                <b>Creative</b>
-                                <b>Lifestyle</b>
-                            </span>
-                        </h1>
+                        <h1 class="text-black-700 text-4xl font-mono">Hello!, I'm <span class="uppercase">Mst Sanowara Khatun.</span></h1>
+                        <p class="font-sans">I'm a Full stack Web Developer. im developing portfolio, E-comarce sites, Management system using HTML, CSS, Tailwind, NodeJS, ReactJS and MongoDB etc.</p>
+                        <div class="social flex items-center justify-center text-xl">
+                            <a class="my-3 mx-5 hover:relative hover:-top-1 hover:bg-white hover:text-red-600 hover:rounded-full hover:overflow-hidden" href=""><i class="white-glow fa-brands fa-facebook"></i></a>
+                            <a class="my-3 mx-5 hover:relative hover:-top-1 hover:bg-white hover:text-red-600 hover:rounded-full hover:overflow-hidden" href=""><i class="white-glow fa-brands fa-facebook-messenger"></i></a>
+                            <a class="my-3 mx-5 hover:relative hover:-top-1 hover:bg-white hover:text-red-600 hover:rounded-full hover:overflow-hidden" href=""><i class="white-glow fa-brands fa-whatsapp"></i></a>
+                            <a class="my-3 mx-5 hover:relative hover:-top-1 hover:bg-white hover:text-red-600 hover:rounded-full hover:overflow-hidden" href=""><i class="white-glow fa-brands fa-linkedin"></i></a>
+                        </div>
 
-                        <div class="custom-btn-group">
+                        <!-- <div class="custom-btn-group">
                             <a href="#section_2" class="rounded-3xl bg-yellow-500 py-2 px-4" >Our Story</a>
 
                             <a href="#section_3" class="link smoothscroll">Become a member</a>
-                        </div>
+                        </div> -->
+
                     </div>
 
-                    <div class="">
-                        <div class="ratio ratio-16x9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MGNgbNGOzh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="h-auto">
+                        <div class="">
+                            <picture class=""><img class="w-96 mx-auto" src="images/vector.png" alt="My Portfolio Picture" srcset=""></picture>
                         </div>
                     </div>
 
@@ -78,6 +81,10 @@
         </section>
 
     </main>
+
+
+
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
